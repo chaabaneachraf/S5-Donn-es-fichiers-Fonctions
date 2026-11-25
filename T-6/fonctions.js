@@ -1,10 +1,10 @@
 // Déclaration des fonctions en camelCase
 function afficherFin() {
-    console.log("=== Session terminée ===");
+    console.log("== Session terminée ==");
 }
 
 function afficherDemarrage() {
-    console.log("=== Démarrage du système ===");
+    console.log("== Démarrage du système ==");
     console.log("Statut : Opérationnel");
 }
 
