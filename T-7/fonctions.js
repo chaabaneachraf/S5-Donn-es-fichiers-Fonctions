@@ -1,10 +1,9 @@
-function additionner(a, b) {
-    return a + b;
+function calculerTotal(prixUnitaire, quantite) {
+    return prixUnitaire * quantite;
 }
 
-// On stocke le résultat renvoyé par return dans une variable
-let somme = additionner(10, 5);
 
-console.log("Somme calculée : " + somme);
+let total = calculerTotal(25, 4);
 
+console.log("Total calculé : " + total + " DH");
 
